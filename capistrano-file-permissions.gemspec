@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{File permissions management for Capistrano 3.x}
   spec.summary       = %q{File permissions management for Capistrano 3.x}
   spec.homepage      = 'https://github.com/capistrano/file-permissions'
+  spec.metadata      = { "rubygems_mfa_required" => "true" }
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
